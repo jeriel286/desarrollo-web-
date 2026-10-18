@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal | Jeriel Dominguez</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO Y MENÚ -->
+    <header>
+        <h1>Jeriel Dominguez</h1>
+        <p>Estudiante de Ingeniería de Software</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#horario">Horario</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <article class="sobre-mi-contenido">
+                <img src="assets/img/foto-perfil.jpg" alt="Foto de perfil de Jeriel Dominguez" width="200" height="200">
+                <div>
+                    <p>¡Hola! Soy <strong>Jeriel Dominguez</strong>, tengo 19 años y estudio <b>Ingeniería de Software</b>. Me apasiona aprender cómo funcionan las páginas web y crear mis propios proyectos.</p>
+                    <p>Este sitio es mi primer proyecto con <strong>HTML</strong> y <strong>CSS</strong></p>
+                </div>
+            </article>
+        </section>
+
+        <!-- HOBBIES -->
+        <section id="hobbies">
+            <h2>Hobbies </h2>
+            <ul class="lista-hobbies">
+                <li>Jugar y ver baloncesto.</li>
+                <li>Jugar voleibol.</li>
+                <li>Compartir y pasar tiempo con mi Familia.</li>
+                <li>Jugar videojuegos</li>
+                <li>Compartir con mis amigos.</li>
+            </ul>
+        </section>
+
+        <!-- TABLA -->
+        <section id="horario">
+            <h2>Horario de estudio</h2>
+            <table>
+                <caption>Plan semanal</caption>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Hora</th>
+                        <th>Materia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>4:05 PM - 6:50 PM</td>
+                        <td>Arquitectura del computador</td>
+
+                        
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>5:00 PM - 6:50 PM</td>
+                        <td>Familia y sociedad</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>5:00 PM - 6:50 PM</td>
+                        <td>Vida y enseñanza de jesus</td>
+                      
+                
+                
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2026 Jeriel Dominguez - Curso:  Desarrollo Web</p>
+    </footer>
+
+</body>
+</html>
